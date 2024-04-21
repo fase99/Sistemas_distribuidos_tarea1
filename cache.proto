@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package cache;
+
+message Consulta {
+  string llave = 1;
+}
+
+message Respuesta {
+  string valor = 1;
+}
+
+service Cache {
+  rpc obtener_sala(Consulta) returns (Respuesta) {}
+  rpc guardar_sala(Consulta) returns (Respuesta) {}
+}
