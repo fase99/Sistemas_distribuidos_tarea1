@@ -46,6 +46,6 @@ if __name__ == '__main__':
         obtener_sala(llave)
 
 
-"""     obtener_sala("llave_1990")
+""" obtener_sala("llave_1990")
     obtener_sala("llave_245")
  """
